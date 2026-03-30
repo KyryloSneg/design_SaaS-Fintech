@@ -22,6 +22,7 @@ const DownloadAppSectionButtonGroup = () => {
               draggable="false"
               width={17}
               height={21}
+              className="h-[21px] w-[17px]"
               loading="lazy"
             />
             Playstore
@@ -40,6 +41,7 @@ const DownloadAppSectionButtonGroup = () => {
               draggable="false"
               width={30}
               height={30}
+              className="size-[30px]"
               loading="lazy"
             />
             Google Play

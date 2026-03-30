@@ -4,7 +4,7 @@ import HeaderMainNavigationDesktop from "./HeaderMainNavigationDesktop";
 const HeaderMainNavigationAndLogin = () => {
   return (
     <nav className="w-full">
-      <ul className="flex items-center justify-between gap-8">
+      <ul className="flex items-center justify-between gap-8 max-lg:justify-self-end">
         <li className="hidden lg:block">
           <HeaderMainNavigationDesktop />
         </li>

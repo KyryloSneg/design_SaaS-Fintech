@@ -8,6 +8,7 @@ const HeaderLoginButtonGroup = () => {
     <Button
       size="xs"
       variant="ghost"
+      className="max-2xs:px-7"
       nativeButton={false}
       render={props => (
         <Link {...props} href="#">
